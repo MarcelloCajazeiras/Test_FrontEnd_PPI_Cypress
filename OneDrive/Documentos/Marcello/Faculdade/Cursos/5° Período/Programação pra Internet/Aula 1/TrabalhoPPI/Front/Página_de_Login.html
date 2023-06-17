@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <title>Biblioteca Católica</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .top-bar {
+        background-color: #0a3d62;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+
+      input[type="email"],
+      input[type="password"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: left;
+      }
+
+      input[type="reset"] {
+        background-color: #857f7e;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: left;
+        margin-left: 20px;
+      }
+
+      input[type="submit"]:hover,
+      input[type="reset"]:hover {
+        background-color: #090b66c7;
+      }
+
+      .container {
+        padding: 16px;
+      }
+
+      .register {
+        background-color: #2196F3;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      .register:hover {
+        background-color: #0b7dda;
+      }
+
+      input[type="email"]:focus,
+      input[type="password"]:focus {
+        background-color: #f5f5f5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top-bar">
+      <h1>Biblioteca Católica</h1>
+    </div>
+
+    <h2>Login</h2>
+    <form action="Pagina_Principal.html">
+      <div class="container">
+        <label for="email"><b>E-mail*:</b></label>
+        <input type="email" placeholder="Digite o e-mail" name="email" required>
+
+        <label for="password"><b>Senha*:</b></label>
+        <input type="password" placeholder="Digite a senha" name="password" required>
+
+        <div>
+          <input type="submit" value="Entrar" formaction="Pagina_Principal.html">
+          <input type="reset" value="Limpar">
+        </div>
+
+        <button class="register" type="button">Quero me cadastrar</button>
+      </div>
+    </form>
+  </body>
+</html>
